@@ -19,8 +19,12 @@
       content: "\f005";
     }
     label {
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #fff;
+     
+        text-shadow:
+          -1px -1px 0 #fff,
+          1px -1px 0 #fff,
+          -1px 1px 0 #fff,
+           1px 1px 0 #fff;
       color: #B3CDF6;
       float: right;
     }
