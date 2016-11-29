@@ -12,40 +12,37 @@
       display: none;
     }
     label:before {
-      margin: 0px;
+      margin: 6px;
       font-size: 3em;
       font-family: FontAwesome;
       display: inline-block;
-      content: "\f005";
+      content: "\f0eb";
     }
     label {
-     
-        text-shadow:
-          -1px -1px 0 #fff,
-          1px -1px 0 #fff,
-          -1px 1px 0 #fff,
-           1px 1px 0 #fff;
-      color: #B3CDF6;
+
+
+
+      color: #d6dbdf;
       float: right;
     }
     input:checked ~ label {
-      color: #FFD700;
+      color: #34495e;
     }
   }
   &:not(:checked) > label:hover {
-    color: #FFD700;
+    color: #34495e;
     ~ label {
-      color: #FFD700;
+      color: #34495e;
     }
   }
   > {
     input:checked {
       + label:hover, ~ label:hover {
-        color: #FFED85;
+        color: #34495e;
       }
     }
     label:hover ~ input:checked ~ label, input:checked ~ label:hover ~ label {
-      color: #FFED85;
+      color: #34495e;
     }
   }
 }
